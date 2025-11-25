@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<dict>
+			<key>APIType</key>
+			<string>NSPrivacyAccessedAPICategorySystemBootTime</string>
+			<key>Reason</key>
+			<string>Our app uses system boot time to track app usage sessions accurately.</string>
+		</dict>
+		<dict>
+			<key>APIType</key>
+			<string>NSPrivacyAccessedAPICategoryDiskSpace</string>
+			<key>Reason</key>
+			<string>We monitor available disk space to ensure optimal app performance and data storage.</string>
+		</dict>
+		<dict>
+			<key>APIType</key>
+			<string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
+			<key>Reason</key>
+			<string>We access file timestamps to organize user documents by date.</string>
+		</dict>
+		<dict>
+			<key>APIType</key>
+			<string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+			<key>Reason</key>
+			<string>We use UserDefaults to store user preferences and settings.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

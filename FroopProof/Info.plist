@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.agencytheory.froopproof.updateLocation</string>
+		<string>com.agencytheory.froopproof.getDataFromFirestore</string>
+		<string>com.agencytheory.froopproof.postDataToFirestore</string>
+		<string>com.agencytheory.froopproof.processesData</string>
+		<string>com.agencytheory.froopproof.respondsToPushNotifications</string>
+	</array>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.agencytheory.froopproof</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>froop</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>froop</string>
+				<string>com.googleusercontent.apps.178253564831-j13hsgmbh9ols597l9fsin6ic8makj2k</string>
+			</array>
+		</dict>
+	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>waze</string>
+	</array>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>GetFlightInformationIntentIntent</string>
+		<string>INGetFlightStatusIntentIntent</string>
+		<string>INSendMessageIntent</string>
+		<string>INStartCallIntent</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Please provide permission to store images in your photo library.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Froop needs to know your location to help you coordinate your event.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Froop will ONLY track your location when you have an Active Froop.  Froop does not track your location when you do not have an Active Froop.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Froop needs to know your location to help you coordinate your event.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Froop needs to know your location to help you coordinate your event.</string>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.agencytheory.froopproof.updateLocation</string>
+		<string>com.agencytheory.froopproof.getDataFromFirestore</string>
+		<string>com.agencytheory.froopproof.postDataToFirestore</string>
+		<string>com.agencytheory.froopproof.processesData</string>
+		<string>com.agencytheory.froopproof.respondsToPushNotifications</string>
+	</array>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>MKDirectionsRequest</string>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.apple.maps.directionsrequest</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.178253564831-j13hsgmbh9ols597l9fsin6ic8makj2k</string>
+			</array>
+		</dict>
+	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>waze</string>
+	</array>
+	<key>MKDirectionsApplicationSupportedModes</key>
+	<array>
+		<string>MKDirectionsModeCar</string>
+		<string>MKDirectionsModePedestrian</string>
+		<string>MKDirectionsModePlane</string>
+	</array>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>INSendMessageIntent</string>
+		<string>INStartCallIntent</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>
